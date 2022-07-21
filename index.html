@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ramen Maker</title>
+  <link rel="stylesheet" href="./resources/css/index.css">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="./resources/js/index.js"> </script>
+</head>
+
+<body>
+  <canvas class="canvas"></canvas>
+  <form class="form-field">
+    <div class="form-header">
+      <h1>Ramen Maker</h1>
+      <hr />
+    </div>
+    <div class="form-body">
+      <div class="col-start">
+        <div class="form-group">
+          <label for="baguette">Baguette</label><br />
+          <div>
+            <input type="checkbox" id="baguette" name="baguette">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="sauce">Sauce</label><br />
+          <div>
+            <input type="checkbox" id="sauce" name="sauce">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="Nouilles">Maki</label><br />
+          <div>
+            <label for="case4">Maki 1</label>
+            <div class="quantity">
+              <input type='button' value='-' class='qtyminus' field='quantity' />
+              <input type='text' name='quantity' value='0' class='qty' />
+              <input type='button' value='+' class='qtyplus' field='quantity' />
+            </div>
+          </div>
+
+          <div>
+            <label for="case5">Maki 2</label>
+            <div class="quantity">
+              <input type='button' value='-' class='qtyminus' field='quantity1' />
+              <input type='text' name='quantity1' value='0' class='qty' />
+              <input type='button' value='+' class='qtyplus' field='quantity1' />
+            </div>
+          </div>
+
+          <div>
+            <label for="case6">Maki 3</label>
+            <div class="quantity">
+              <input type='button' value='-' class='qtyminus' field='quantity2' />
+              <input type='text' name='quantity2' value='0' class='qty' />
+              <input type='button' value='+' class='qtyplus' field='quantity2' />
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="Bouillon">Sushi</label><br />
+          <div>
+            <label for="case7">Sushi 1</label>
+            <div class="quantity">
+              <input type='button' value='-' class='qtyminus' field='quantity3' />
+              <input type='text' name='quantity3' value='0' class='qty' />
+              <input type='button' value='+' class='qtyplus' field='quantity3' />
+            </div>
+          </div>
+
+          <div>
+            <label for="case8">Sushi 2</label>
+            <div class="quantity">
+              <input type='button' value='-' class='qtyminus' field='quantity4' />
+              <input type='text' name='quantity4' value='0' class='qty' />
+              <input type='button' value='+' class='qtyplus' field='quantity4' />
+            </div>
+          </div>
+
+          <div>
+            <label for="case9">Sushi 3</label>
+            <div class="quantity">
+              <input type='button' value='-' class='qtyminus' field='quantity5' />
+              <input type='text' name='quantity5' value='0' class='qty' />
+              <input type='button' value='+' class='qtyplus' field='quantity5' />
+            </div>
+          </div>
+        </div>
+      </div>
+  </form>
+</body>
+
+</html>
